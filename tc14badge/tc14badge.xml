@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/mike/source/cc11xx/tc14badge/tc14badge.sch</source>
+    <date>Thu 13 Apr 2017 20:04:03 SAST</date>
+    <tool>Eeschema 4.0.2+e4-6225~38~ubuntu15.10.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>19 oct 2012</date>
+        <source>tc14badge.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C7">
+      <value>10nF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R71E103KA01D</field>
+        <field name="Description">CAP CER 10000PF 25V 10% X7R 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>50510375</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10nF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM188R71H103KA01D</field>
+        <field name="Description">CAP CER 10000PF 50V 10% X7R 0603</field>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D4718</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>PWR</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-cache" part="CONN_3X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D258A</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>CRYSTAL</value>
+      <fields>
+        <field name="Manufacturer">TXC</field>
+        <field name="Part Number">7A-48.000MAAJ-T</field>
+        <field name="Description">CRYSTAL 48.000 MHZ 18PF SMD</field>
+      </fields>
+      <libsource lib="tc14badge-cache" part="CRYSTAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D0F4F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CC1111</value>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">CC1111F32RSPR</field>
+        <field name="Description">IC SUB1GHZ W/MCU USB 32KB 36-QFN</field>
+      </fields>
+      <libsource lib="cc1111" part="CC1111"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D0F40</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>0</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="cc1111" part="R-SHORTED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D0B94</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>GND</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D0B65</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>3V3</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D0B63</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>DC</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D0B62</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>DD</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D0B60</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>RESET_N</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504D0B57</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED3</value>
+      <fields>
+        <field name="Manufacturer">OSRAM</field>
+        <field name="Part Number">LG Q971-KN-1</field>
+        <field name="Description">LED CHIPLED 570NM GREEN 0603 SMD</field>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="LED-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CFE70</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>330</value>
+      <fields>
+        <field name="Manufacturer">Stackpole</field>
+        <field name="Part Number">RMCF0603JT330R</field>
+        <field name="Description">RES 330 OHM 1/10W 5% 0603 SMD</field>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CFE6F</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>330</value>
+      <fields>
+        <field name="Manufacturer">Stackpole</field>
+        <field name="Part Number">RMCF0603JT330R</field>
+        <field name="Description">RES 330 OHM 1/10W 5% 0603 SMD</field>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CFE39</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED2</value>
+      <fields>
+        <field name="Manufacturer">OSRAM</field>
+        <field name="Part Number">LG Q971-KN-1</field>
+        <field name="Description">LED CHIPLED 570NM GREEN 0603 SMD</field>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="LED-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CFE38</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <fields>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Part Number">FSM2JSMA</field>
+        <field name="Description">SWITCH TACT 6MM SMD GULL WING</field>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CFDB1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>TVS_DIODE</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">LXES15AAA1-100</field>
+        <field name="Description">TVS DIODE ESD .05PF 15KV 0402</field>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="cc1111" part="GSG-DIODE-TVS-BI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CFCBE</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>ANTENNA</value>
+      <fields>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Part Number">2081233-1</field>
+        <field name="Description">CONN JACK SMA PCB VERT</field>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="cc1111" part="GSG-SMA-CONN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CFCB0</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>EXPANSION</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-cache" part="CONN_8X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CF706</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="cc1111" part="R-SHORTED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CF505</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>GOODFET</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-cache" part="CONN_7X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CF491</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <fields>
+        <field name="Manufacturer">Stackpole</field>
+        <field name="Part Number">RMCF0603JT10K0</field>
+        <field name="Description">RES 10K OHM 1/10W 5% 0603 SMD</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CF38E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <fields>
+        <field name="Manufacturer">Stackpole</field>
+        <field name="Part Number">RMCF0603JT330R</field>
+        <field name="Description">RES 330 OHM 1/10W 5% 0603 SMD</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CF0D3</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED1</value>
+      <fields>
+        <field name="Manufacturer">OSRAM</field>
+        <field name="Part Number">LG Q971-KN-1</field>
+        <field name="Description">LED CHIPLED 570NM GREEN 0603 SMD</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="LED-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CF0C2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <fields>
+        <field name="Manufacturer">Stackpole</field>
+        <field name="Part Number">RMCF0603JT10K0</field>
+        <field name="Description">RES 10K OHM 1/10W 5% 0603 SMD</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CEFF7</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="cc1111" part="R-SHORTED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CB0EB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAF13</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k5</value>
+      <fields>
+        <field name="Manufacturer">Rohm</field>
+        <field name="Part Number">MCR03ERTF1501</field>
+        <field name="Description">RES 1.50K OHM 1/10W 1% 0603 SMD</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAF08</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>47pF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1885C1H470JA01D</field>
+        <field name="Description">CAP CER 47PF 50V 5% NP0 0603</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAECB</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>47pF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1885C1H470JA01D</field>
+        <field name="Description">CAP CER 47PF 50V 5% NP0 0603</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAEAF</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>33</value>
+      <fields>
+        <field name="Manufacturer">Rohm</field>
+        <field name="Part Number">MCR03ERTF33R0</field>
+        <field name="Description">RES 33.0 OHM 1/10W 1% 0603 SMD</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAEA4</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>33</value>
+      <fields>
+        <field name="Manufacturer">Rohm</field>
+        <field name="Part Number">MCR03ERTF33R0</field>
+        <field name="Description">RES 33.0 OHM 1/10W 1% 0603 SMD</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAE9B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>GSG-USB-MICRO-B</value>
+      <fields>
+        <field name="Manufacturer">FCI</field>
+        <field name="Part Number">10103594-0001LF</field>
+        <field name="Description">CONN RCPT STD MICRO USB TYPE B</field>
+      </fields>
+      <libsource lib="cc1111" part="GSG-USB-MICRO-B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAE21</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>4u7</value>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Part Number">JMK107BJ475KA-T</field>
+        <field name="Description">CAP CER 4.7UF 6.3V 10% X5R 0603</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAD75</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Part Number">LMK107B7105KA-T</field>
+        <field name="Description">CAP CER 1UF 10V 10% X7R 0603</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAD71</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AP7313</value>
+      <fields>
+        <field name="Manufacturer">Diodes Inc.</field>
+        <field name="Part Number">AP7313-33SAG-7</field>
+        <field name="Description">IC REG LDO 3.3V .15A SOT23</field>
+      </fields>
+      <libsource lib="cc1111" part="AP7313"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAD4C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>220pF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R71H221KA01D</field>
+        <field name="Description">CAP CER 220PF 50V 10% X7R 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAA44</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10nF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R71E103KA01D</field>
+        <field name="Description">CAP CER 10000PF 25V 10% X7R 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CAA22</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2p2</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1555C1H2R2CZ01D</field>
+        <field name="Description">CAP CER 2.2PF 50V NP0 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA9AD</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10nF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R71E103KA01D</field>
+        <field name="Description">CAP CER 10000PF 25V 10% X7R 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA977</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61A104KA01D</field>
+        <field name="Description">CAP CER 0.1UF 10V 10% X5R 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA934</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61A104KA01D</field>
+        <field name="Description">CAP CER 0.1UF 10V 10% X5R 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA908</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61A104KA01D</field>
+        <field name="Description">CAP CER 0.1UF 10V 10% X5R 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA8D9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>56k</value>
+      <fields>
+        <field name="Manufacturer">Rohm</field>
+        <field name="Part Number">MCR01MRTF5602</field>
+        <field name="Description">RES 56.0K OHM 1/16W 1% 0402 SMD</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="R-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA84D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Part Number">LMK107B7105KA-T</field>
+        <field name="Description">CAP CER 1UF 10V 10% X7R 0603</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA3D1</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>22pF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1555C1H220JA01D</field>
+        <field name="Description">CAP CER 22PF 50V 5% NP0 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA2F3</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>22pF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1555C1H220JA01D</field>
+        <field name="Description">CAP CER 22PF 50V 5% NP0 0402</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA2F0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM188R71H103KA01D</field>
+        <field name="Description">CAP CER 10000PF 50V 10% X7R 0603</field>
+      </fields>
+      <libsource lib="tc14badge-rescue" part="C-RESCUE-tc14badge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504CA04A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>GSG-900MHZ-F-ANTENNA</value>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="cc1111" part="GSG-900MHZ-F-ANTENNA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504C9FF3</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>BALUN</value>
+      <fields>
+        <field name="Manufacturer">Anaren</field>
+        <field name="Part Number">B0310J50100AHF</field>
+        <field name="Description">Ultra Low Profile 0805 Balun 50 to 100 ohm Balanced</field>
+      </fields>
+      <libsource lib="cc1111" part="BALUN-B0310J50100AHF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>504C9FEC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="cc1111" part="AP7313">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP7313</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc1111" part="BALUN-B0310J50100AHF">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">BALUN-B0310J50100AHF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="passive"/>
+        <pin num="2" name="S2" type="passive"/>
+        <pin num="3" name="PR1" type="passive"/>
+        <pin num="4" name="PR2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tc14badge-rescue" part="C-RESCUE-tc14badge">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-tc14badge</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc1111" part="CC1111">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC1111</field>
+      </fields>
+      <pins>
+        <pin num="0" name="AGND" type="power_in"/>
+        <pin num="1" name="P1_2" type="BiDi"/>
+        <pin num="2" name="DVDD" type="power_in"/>
+        <pin num="3" name="P1_1" type="BiDi"/>
+        <pin num="4" name="P1_0" type="BiDi"/>
+        <pin num="5" name="P0_0" type="BiDi"/>
+        <pin num="6" name="P0_1" type="BiDi"/>
+        <pin num="7" name="P0_2" type="BiDi"/>
+        <pin num="8" name="P0_3" type="BiDi"/>
+        <pin num="9" name="P0_4" type="BiDi"/>
+        <pin num="10" name="DP" type="BiDi"/>
+        <pin num="11" name="DM" type="BiDi"/>
+        <pin num="12" name="DVDD" type="power_in"/>
+        <pin num="13" name="P0_5" type="BiDi"/>
+        <pin num="14" name="P2_0" type="BiDi"/>
+        <pin num="15" name="P2_1" type="BiDi"/>
+        <pin num="16" name="P2_2" type="BiDi"/>
+        <pin num="17" name="P2_3" type="BiDi"/>
+        <pin num="18" name="P2_4" type="BiDi"/>
+        <pin num="19" name="AVDD" type="power_in"/>
+        <pin num="20" name="XOSC_Q2" type="BiDi"/>
+        <pin num="21" name="XOSC_Q1" type="BiDi"/>
+        <pin num="22" name="AVDD" type="power_in"/>
+        <pin num="23" name="RF_P" type="BiDi"/>
+        <pin num="24" name="RF_N" type="BiDi"/>
+        <pin num="25" name="AVDD" type="power_in"/>
+        <pin num="26" name="AVDD" type="power_in"/>
+        <pin num="27" name="RBIAS" type="BiDi"/>
+        <pin num="28" name="GUARD" type="power_in"/>
+        <pin num="29" name="AVDD_DREG" type="power_in"/>
+        <pin num="30" name="DCOUPL" type="passive"/>
+        <pin num="31" name="RESET_N" type="input"/>
+        <pin num="32" name="P1_7" type="BiDi"/>
+        <pin num="33" name="P1_6" type="BiDi"/>
+        <pin num="34" name="P1_5" type="BiDi"/>
+        <pin num="35" name="P1_4" type="BiDi"/>
+        <pin num="36" name="P1_3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="tc14badge-cache" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tc14badge-cache" part="CONN_3X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_3X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tc14badge-cache" part="CONN_7X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_7X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tc14badge-cache" part="CONN_8X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_8X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tc14badge-cache" part="CRYSTAL">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc1111" part="GSG-900MHZ-F-ANTENNA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GSG-900MHZ-F-ANTENNA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RF" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc1111" part="GSG-DIODE-TVS-BI">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">GSG-DIODE-TVS-BI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc1111" part="GSG-SMA-CONN">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">GSG-SMA-CONN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RF" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc1111" part="GSG-USB-MICRO-B">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GSG-USB-MICRO-B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="input"/>
+        <pin num="5" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="tc14badge-rescue" part="LED-RESCUE-tc14badge">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-tc14badge</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tc14badge-rescue" part="R-RESCUE-tc14badge">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-tc14badge</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc1111" part="R-SHORTED">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-SHORTED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="cc1111">
+      <uri>/home/mike/source/cc11xx/kicad/cc1111.lib</uri>
+    </library>
+    <library logical="tc14badge-cache">
+      <uri>/home/mike/source/cc11xx/tc14badge/tc14badge-cache.lib</uri>
+    </library>
+    <library logical="tc14badge-rescue">
+      <uri>/home/mike/source/cc11xx/tc14badge/tc14badge-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/P1_6">
+      <node ref="P1" pin="12"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="SW1" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="0"/>
+      <node ref="P9" pin="1"/>
+      <node ref="P9" pin="3"/>
+      <node ref="P2" pin="3"/>
+      <node ref="P9" pin="5"/>
+      <node ref="P2" pin="5"/>
+      <node ref="P2" pin="4"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C15" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="P8" pin="9"/>
+      <node ref="C13" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="C12" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="3" name="/P2_4">
+      <node ref="U1" pin="18"/>
+      <node ref="R12" pin="2"/>
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="4" name="/P2_3">
+      <node ref="R11" pin="2"/>
+      <node ref="P1" pin="15"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="5" name="/P2_0">
+      <node ref="P1" pin="14"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="6" name="/P1_5">
+      <node ref="U1" pin="34"/>
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="7" name="/P1_4">
+      <node ref="U1" pin="35"/>
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="8" name="/P1_3">
+      <node ref="P1" pin="9"/>
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="9" name="/P0_4">
+      <node ref="P1" pin="6"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="10" name="/P0_3">
+      <node ref="U1" pin="8"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="11" name="Net-(P8-Pad11)">
+      <node ref="P8" pin="11"/>
+    </net>
+    <net code="12" name="Net-(P8-Pad13)">
+      <node ref="P8" pin="13"/>
+    </net>
+    <net code="13" name="Net-(P8-Pad3)">
+      <node ref="P8" pin="3"/>
+    </net>
+    <net code="14" name="Net-(P8-Pad4)">
+      <node ref="P8" pin="4"/>
+    </net>
+    <net code="15" name="Net-(P8-Pad6)">
+      <node ref="P8" pin="6"/>
+    </net>
+    <net code="16" name="Net-(P8-Pad8)">
+      <node ref="P8" pin="8"/>
+    </net>
+    <net code="17" name="Net-(P8-Pad10)">
+      <node ref="P8" pin="10"/>
+    </net>
+    <net code="18" name="Net-(P8-Pad12)">
+      <node ref="P8" pin="12"/>
+    </net>
+    <net code="19" name="Net-(P8-Pad14)">
+      <node ref="P8" pin="14"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="21" name="/P0_2">
+      <node ref="P1" pin="4"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="22" name="/P0_0">
+      <node ref="U1" pin="5"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="23" name="/DC">
+      <node ref="P8" pin="7"/>
+      <node ref="P5" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="24" name="Net-(P6-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="25" name="/DD">
+      <node ref="U1" pin="15"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="27" name="/P1_2">
+      <node ref="SW1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="28" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="30" name="/RESET_N">
+      <node ref="P8" pin="5"/>
+      <node ref="R2" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="31" name="Net-(T1-Pad4)">
+      <node ref="U1" pin="23"/>
+      <node ref="T1" pin="4"/>
+    </net>
+    <net code="32" name="Net-(T1-Pad3)">
+      <node ref="T1" pin="3"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="33" name="Net-(C6-Pad2)">
+      <node ref="J1" pin="1"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C17-Pad2)">
+      <node ref="T1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="35" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="36" name="3V3">
+      <node ref="U1" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="29"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U1" pin="28"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U1" pin="26"/>
+      <node ref="U1" pin="12"/>
+      <node ref="C16" pin="1"/>
+      <node ref="P9" pin="2"/>
+      <node ref="P9" pin="4"/>
+      <node ref="P9" pin="6"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="37" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="38" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="39" name="Net-(P8-Pad2)">
+      <node ref="R15" pin="1"/>
+      <node ref="P8" pin="2"/>
+    </net>
+    <net code="40" name="/VBUS">
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="41" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="27"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="42" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="43" name="Net-(C12-Pad2)">
+      <node ref="U1" pin="10"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="44" name="Net-(J2-Pad3)">
+      <node ref="R9" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="45" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="X1" pin="2"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="46" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="47" name="Net-(C10-Pad1)">
+      <node ref="U1" pin="20"/>
+      <node ref="C10" pin="1"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="48" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="49" name="/P0_5">
+      <node ref="P1" pin="7"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="50" name="/P1_7">
+      <node ref="P1" pin="13"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="51" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="52" name="/P0_1">
+      <node ref="U1" pin="6"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="53" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+  </nets>
+</export>

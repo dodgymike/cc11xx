@@ -1,0 +1,29 @@
+Drill report for /home/mike/source/cc11xx/tc14badge/tc14badge.kicad_pcb
+Created on Mon 19 Jun 2017 22:11:35 SAST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Front                     front
+    L2 :  Back                      back
+
+
+Drill file 'tc14badge.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.38mm  0.015"  (9 holes)
+    T2  0.41mm  0.016"  (36 holes)
+    T3  0.64mm  0.025"  (27 holes)
+    T4  1.02mm  0.040"  (36 holes)
+    T5  1.05mm  0.041"  (2 holes)
+    T6  1.20mm  0.047"  (2 holes)
+    T7  1.52mm  0.060"  (1 hole)
+    T8  1.70mm  0.067"  (4 holes)
+
+    Total plated holes count 117
+
+
+Drill file 'tc14badge-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
